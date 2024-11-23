@@ -40,3 +40,9 @@ info:
     name: LOAN-SERVICE
     description: "Loan Service application"
     version: "1.0.0"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
